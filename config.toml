@@ -29,22 +29,22 @@ theme = "hugo-serif-theme"
   # Main Menu
   [[menu.main]]
     name = "Radiation"
-    url = "/radiation/"
+    url = "/services/radiation/"
       weight = 1
 
   [[menu.main]]
       name = "Electronics"
-      url = "/electronics/"
+      url = "/services/electronics/"
       weight = 2
 
   [[menu.main]]
       name = "Cameras"
-      url = "/cameras/"
+      url = "/services/cameras/"
       weight = 2
 
   [[menu.main]]
       name = "Simulation"
-      url = "/simulaton/"
+      url = "/services/simulation/"
       weight = 2
 
   # Footer Menu

@@ -3971,13 +3971,16 @@ img {
   height: auto; }
 
 p {
-  line-height: 26px;
+  line-height: 1.5;
   color: #5c5a5a;
   font-family: Helvetica, Arial, sans-serif, -apple-system;
   margin-bottom: 20px; }
+  p:last-child {
+    margin-bottom: 0; }
 
 h1 {
   font-size: 20px;
+  font-weight: bold;
   font-family: "Maven Pro", serif, -apple-system;
   line-height: 1.2;
   margin-bottom: 20px; }
@@ -4041,9 +4044,7 @@ ol {
   position: static; }
 
 .footer {
-  background: #2f2f41;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  background: #2f2f41; }
   .footer .footer-inner {
     display: flex;
     justify-content: space-between;
@@ -4063,6 +4064,10 @@ ol {
     @media (min-width: 576px) {
       .footer .footer-title {
         margin: 0; } }
+  .footer p {
+    color: #ffffff;
+    font-size: .8rem;
+    opacity: .6; }
   .footer ul {
     list-style: none;
     margin: 0;
@@ -4112,6 +4117,8 @@ ol {
       padding-top: 10px;
       padding-bottom: 10px; } }
   .sub-footer .sub-footer-inner {
+    color: #ffffff;
+    opacity: .6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

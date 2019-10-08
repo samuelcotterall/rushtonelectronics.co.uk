@@ -1,19 +1,17 @@
-<div class="footer">
+<div class="footer py-3 py-md-5">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <div class="footer-inner">
-          <h3 class="footer-title">{{.Site.Title}}</h3>
-          <ul>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.footer }}
-            <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
-              <a href="{{.URL}}">
-                {{ .Name }}
-              </a>
-            </li>
-            {{end}}
-          </ul>
+      <div class="col-12 col-md-6 order-2">
+        <ul class="list">
+          <li><a href="https://linkedin.com/in/joseph-rushton">LinkedIn</a></li>
+          <li><a href="http://oro.open.ac.uk/53005/1/">PhD Thesis</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6 order-1">
+        <div class="text-white">
+          <p>Registered address: 898 - 902 Wimborne Road Moordown Bournemouth Dorset BH9 2DN, United Kingdom.</p>
+          <p>Company number: 11530039</p>
+          <p><small>Copyright &copy; 2019 Rushton Electronics</small></p>
         </div>
       </div>
     </div>
